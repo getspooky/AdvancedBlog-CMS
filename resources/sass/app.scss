@@ -1,0 +1,32 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import "~font-awesome/scss/font-awesome";
+
+// Variables
+@import 'variables';
+
+// Bulma
+@import '~bulma/bulma';
+
+// Buefy
+@import "~buefy/src/scss/buefy";
+
+// SCSS Helper Classes Reference
+
+@import "helper";
+
+// Custom SCSS Page
+
+@import "override";
+
+// SCSS Main Style file
+
+@import "main";
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}

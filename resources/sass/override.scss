@@ -1,0 +1,64 @@
+.navbar{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin:0;
+  width:100%;
+  padding:20px;
+  height:90px;
+}
+
+.is-fullhd{
+  margin:0;
+}
+
+#app{
+  margin:0;
+  padding:0;
+}
+
+.is-128x128{
+
+  width:128px;
+  height:128px;
+  border-radius:10px;
+
+}
+
+
+/*  Disable border for any components */
+
+.no-border{
+  border:none;
+}
+
+.is-margin{
+
+  margin-bottom:10px;
+
+}
+
+.table{
+
+  width:100%;
+
+  @include make-margin-top(20px);
+
+}
+
+.is-spaced{
+
+  margin-right:4px;
+
+}
+
+.modal-card{
+
+  margin-top:40px;
+
+}
+
+
+.modal-card-body > input{
+
+   margin-bottom:20px;
+
+}
