@@ -27,16 +27,16 @@ Intermediate to Advanced. You should know HTML/CSS/JS pretty well and already ha
 
 1  - Clone the repo and cd into it <br>
 2  - composer install <br>
-3  - Rename or copy .env.example file to .env
-4  - php artisan key:generate
-5  - Set your database credentials in your .env file
-7  - Set your Stripe credentials in your .env file. Specifically STRIPE_KEY and STRIPE_SECRET
-8  - Set your Facebook  credentials in your .env file. Specifically FACEBOOK_CLIENT_ID and FACEBOOK_CLIENT_SECRET
-9  - npm install
-10 - npm run dev
-11 - php artisan migrate:fresh --seed 
-12 - php artisan serve 
-13 - Visit localhost:8000 in your browser
+3  - Rename or copy .env.example file to .env <br>
+4  - php artisan key:generate <br>
+5  - Set your database credentials in your .env file <br>
+7  - Set your Stripe credentials in your .env file. Specifically STRIPE_KEY and STRIPE_SECRET <br>
+8  - Set your Facebook  credentials in your .env file. Specifically FACEBOOK_CLIENT_ID and FACEBOOK_CLIENT_SECRET <br>
+9  - npm install <br>
+10 - npm run dev <br>
+11 - php artisan migrate:fresh --seed <br>
+12 - php artisan serve <br>
+13 - Visit localhost:8000 in your browser <br>
 
 ## Contributing
 
