@@ -11,8 +11,8 @@
                     <p class="subtitle has-text-grey">Please login to proceed.</p>
                     <div class="box">
                         <figure class="avatar">
-                            <img class="is-margin is-128x128" src="https://discordapp.com/assets/dd4dbc0016779df1378e7812eabaa04d.png">
-                        </figure>
+                            <img class="is-margin" src="https://bulma.io/images/bulma-logo.png">
+                        </figure><br>
                         <form method="post" action="{{ route('login') }}">
                             @csrf
                             <div class="field">

@@ -35,6 +35,16 @@
                         <li><a href="{{ route('Checkout.index') }}">Payments</a></li>
                     </ul>
 
+                    <p class="menu-label">
+                        Devlopment
+                    </p>
+                    <ul class="menu-list">
+                        <li>
+                            <a href="{{ route('api') }}">Api</a>
+                        </li>
+                    </ul>
+
+
                 </aside>
             </div>
 

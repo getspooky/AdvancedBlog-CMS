@@ -58,4 +58,16 @@ Route::group(['middleware' => ['auth']], function () {
 
        });
 
+       Route::get('/API',function(){
+
+           return view('manage.pages.api');
+
+       })->name('api');
+
+       Route::get('/panel',function(){
+
+           return view('manage.pages.Panelapi');
+
+       })->name('panel');
+
 });

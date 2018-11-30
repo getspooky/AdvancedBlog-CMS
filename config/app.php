@@ -168,6 +168,7 @@ return [
 
         Cartalyst\Stripe\Laravel\StripeServiceProvider::class,
 
+        'Tymon\JWTAuth\Providers\JWTAuthServiceProvider'
 
     ],
 
@@ -221,6 +222,8 @@ return [
         'FormBuilder' => Kris\LaravelFormBuilder\Facades\FormBuilder::class,
         'Date' => Jenssegers\Date\Date::class,
         'Stripe' => Cartalyst\Stripe\Laravel\Facades\Stripe::class,
+        'JWTAuth' => 'Tymon\JWTAuth\Facades\JWTAuth',
+        'JWTFactory' => 'Tymon\JWTAuth\Facades\JWTFactory'
 
     ],
 

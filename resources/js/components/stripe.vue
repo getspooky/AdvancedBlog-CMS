@@ -99,32 +99,19 @@
 <script>
     export default {
         name: "stripe",
-
         data() {
-
             return {
-
                 root:window.laravel,
-
                 // Create a Stripe client.
                 stripe:Stripe('pk_test_GgQ08bLE6BA3POIJBx8v3Cjf'),
-
                 elements:null,
-
                 card:null,
-
                 seen:false,
-
             }
-
         },
-
         methods:{
-
             stripeSubmit:function () {
-
                 var _this = this
-
                 this.stripe.createToken(this.card).then(function(result) {
                     if (result.error) {
                         // Inform the user if there was an error.
@@ -135,9 +122,7 @@
                         _this.stripeTokenHandler(result.token);
                     }
                 });
-
             },
-
             // Submit the form with the token ID.
             stripeTokenHandler(token) {
                 // Insert the token ID into the form so it gets submitted to the server
@@ -147,34 +132,20 @@
                 hiddenInput.setAttribute('name', 'stripeToken');
                 hiddenInput.setAttribute('value', token.id);
                 form.appendChild(hiddenInput);
-
                 form.submit();
-
-             },
-
+            },
             hide(){
-
-               this.seen = false
-
+                this.seen = false
             }
-
         },
-
-
         mounted(){
-
             if(this.root.Session_stripe !== null){
-
                 this.seen = true
-
             }
-
             // Create an instance of Elements.
             this.elements = this.stripe.elements();
-
             // Custom styling can be passed to options when creating an Element.
             // (Note that this demo uses a wider set of styles than the guide below.)
-
             var style = {
                 base: {
                     color: '#32325d',
@@ -191,22 +162,12 @@
                     iconColor: '#fa755a'
                 }
             };
-
             this.card = this.elements.create('card', {style: style});
-
             // Add an instance of the card Element into the `card-element` <div>.
             this.card.mount('#card-element');
-
-
         }
-
     }
-
-
 </script>
 
 <style scoped>
-
-
-
 </style>
