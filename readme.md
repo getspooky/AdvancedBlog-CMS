@@ -23,6 +23,29 @@ We are going to build an Advanced Blog/ CMS from Start to Finish ,  We will be b
 
 Intermediate to Advanced. You should know HTML/CSS/JS pretty well and already have a good understanding of basic Laravel and vue js .
 
+## Screenshot
+
+<p align="center">
+<img src="https://drive.google.com/uc?id=1chnokxUR4Qpt_JmvNeT1HpqSpKMOAFYU">
+</p>
+
+<p align="center">
+<img src="https://drive.google.com/uc?id=1qeJ0ymPEoou_R1LrY6ZqLGa7T0aAf-Nn">
+</p>
+
+<p align="center">
+<img src="https://drive.google.com/uc?id=1BYKxAVqQMQy3IqzBkaxjorCiGdH0ixPT">
+</p>
+
+<p align="center">
+<img src="https://drive.google.com/uc?id=1I8-JQMXrWcfbKCkCYBmD1ZE6HHTQkj11">
+</p>
+
+<p align="center">
+<img src="https://drive.google.com/uc?id=1Wqx1QyOX0-9QlucBnp8JZ1an0oV_1ICq">
+</p>
+
+
 ## Installation
 
 1  - Clone the repo and cd into it <br>
