@@ -46,7 +46,7 @@ Intermediate to Advanced. You should know HTML/CSS/JS pretty well and already ha
 </p>
 
 
-## Installation
+## Installation 
 
 1  - Clone the repo and cd into it <br>
 2  - composer install <br>
